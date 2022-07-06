@@ -1,0 +1,165 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 33px;
+}
+
+// header, h1, nav, .list-comment {
+//   font-family: 'Kaushan', cursive, sans-serif;
+// }
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 19.5px;
+  margin: 16px 0;
+}
+
+a {
+  font-size: 13px;
+  &:visited {
+    color: #666;
+  }
+}
+
+p,th,td  {
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+ul {
+  font-size: 12px;
+  padding: 33px;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+}
+
+input{
+  padding: 1px 2px;
+}
+
+
+.top_link {
+  font-size: 13px;
+  margin: 33px;
+}
+
+th {
+  padding: 1px 1px 5px;
+}
+
+td {
+  padding: 1px 5px 7px;
+  word-break: break-all;
+}
+
+.field {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input#title {
+  padding: 1px 2px;
+}
+
+textarea#body {
+  padding: 2px;
+  ;
+}
+
+// .partition {
+//   display: inline-block;
+//   font-size: 13px;
+// }
+
+.edit-title {
+  margin: 1rem 0;
+}
+
+.actions {
+  margin-bottom: 10px;
+}
+
+.create-botton {
+  padding: 1px 6px;
+}
+
+.messege {
+  color: green;
+}
+
+.field_with_errors {
+  display: table;
+  background-color: red;
+  padding: 2px;
+  label {
+    background-color: red;
+  }
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid #ff0000;
+//   padding: 7px:
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    font-size: 12px;
+    padding: 5px 5px 5px 15px;
+    margin: 0;
+    background-color: #cc0000;
+    color: #fff;
+  }
+  ul {
+    padding: 0;
+    padding-left: 40px;
+    margin: 33px;
+  }
+}
+
+.back {
+  color: #666;
+}
+.back:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.show,
+.edit,
+.destroy {
+  color: #000;
+  word-break: normal;
+}
+
+.show:hover,
+.edit:hover,
+.destroy:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.help-block {
+  display: none;
+}
+
+// .title {
+//   width: 192px;
+// }
+
+// .body {
+//   width: 400px;
+// }
